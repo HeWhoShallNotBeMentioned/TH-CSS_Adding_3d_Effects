@@ -15,6 +15,7 @@
 
 .content {
 	perspective: 1900px;
+	perspective-origin: 50% 100%;
 }
 
 .photo {
@@ -24,7 +25,7 @@
 
 .photo:hover {
 	/*transform: rotateX(-180deg) ;*/
-	transform: rotate3d(1,1,1, -180deg);
+	transform: rotate3d(1,0,0, 180deg);
 }
 
 .side-a, .side-b {
